@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Quase wireframe</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="lightbox2-master/src/css/lightbox.css" rel="stylesheet">
+</head>
+
+<body>
+  <main id="principal">
+    <div class="menuWrapper">
+<!-- inicio botao menu -->
+      <div class="grow"></div>
+      <!-- fim botao menu        -->
+      <!-- inicio menu -->
+      <nav id="menu">
+        <a href="index.html" title="Home" id="logo"></a>
+        <a href="index.html"><h3 class="titulo">Home Notícias</h3></a>
+        <h3 class="titulo">Categorias</h3>
+        <ul class="box">
+          <li class="linha"><a href="produtos.html">Produtos</a></li>
+          <li class="linha"><a href="produtos.html">Mundo</a></li>
+          <li class="linha"><a href="produtos.html">Economia</a></li>
+        </ul>
+        <h3 class="titulo">Opões do usuário</h3>
+        <ul class="box">
+          <li class="linha"><a href="form1.html">Login</a></li>
+          <li class="linha"><a href="form1.html">Preferências</a></li>
+        </ul>
+        <h3 class="titulo">Contato</h3>
+        <ul class="box">
+          <li class="linha"><a href="form1.html">Formulário</a></li>
+        </ul>
+      </nav>
+  </div>
+ <!-- fim menu -->
+
+<!-- seção form -->
+<section class="contentWrapper">
+  <h1>Formulário de Contato</h1>
+  <div class="formContato">
+    <form action="#" id="formContato" method="post" tabindex="1">
+      <label for="nome">Nome Completo</label><br>
+      <input type="text" id="nome" name="nome" placeholder="Insira seu Nome Completo" required />
+      <br><br>
+      <div class="lado">
+        <label for="idade">Idade</label><br>
+        <input type="number" id="idade" name="idade" placeholder="Insira sua Idade" required />
+      </div>
+      <div class="lado">
+        <label for="sexo">Sexo</label><br>
+        <select id="sexo" required>
+          <option value="" disabled selected>Selecione seu gênero</option>
+          <option value="M">Masculino</option>
+          <option value="F">Feminino</option>
+          <option value="O">Me identifico com outro gênero</option>
+        </select>
+      </div>
+      <div class="clear"></div>
+      <label for="cidade">Cidade</label><br>
+      <input type="text" id="cidade" name="cidade" placeholder="Insira sua cidade" required />
+      <br><br>
+      <label for="login">Login</label><br>
+      <input type="text" id="login" name="login" placeholder="Insira um Login" required />
+      <br><br>
+      <label for="password">Senha</label><br>
+      <input type="password" id="password" name="password" placeholder="Crie uma senha" required /><br><br>
+      <label for="password">Repetir a senha</label><br>
+      <input type="password" id="password2" name="password2" placeholder="Repetir a senha" required />
+      <br><br>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Insira seu Email" required /><br><br>
+      <button type="submit" id="btnAnalisar" class="btn btn-info">Analisar</button>
+      <button type="submit" id="btnEnviar" class="btn btn-info">Enviar</button>
+    </form>
+  </div>
+</section>
+<!-- fim secao form        -->
+
+
+
+  </main>
+  <script type="text/javascript" src="js\jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js\form.js"></script>
+  <script src="lightbox2-master/src/js/lightbox.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
